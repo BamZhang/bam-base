@@ -1,8 +1,9 @@
 package bam.aop.annotation;
 
-import java.lang.annotation.Documented;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface AppToken {
 }
