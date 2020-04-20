@@ -12,7 +12,6 @@ public class Thread2 {
 
     private static volatile boolean endFlag = false;
 
-
     public static void test1() {
         while (!endFlag) {
             System.out.println("test1 running");
